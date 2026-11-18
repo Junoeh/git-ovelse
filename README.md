@@ -11,17 +11,15 @@ Prison Escape er et tekstbasert spill laget i Python. Spilleren starter i en fen
 5. Hvis du velger feil, taper du spillet.
 
 ## Filer
-main.py – Inneholder hovedkoden og spillmekanikken.
-images.py – Skal brukes til å håndtere bilder i spillet.
-README.md – Informasjon om prosjektet.
+main.py - Inneholder hovedkoden og spillmekanikken.
+images.py - Skal brukes til å håndtere bilder i spillet.
+README.md - Informasjon om prosjektet.
 
 ## Målet med spillet
 Målet er å komme seg ut av fengselet ved å ta riktige valg. Noen valg fører til at du taper, mens andre fører deg nærmere friheten.
 
 ## Laget med
--Python
--Git
--GitHub
+-Python, Git, GitHub
 
 ## Utviklere
 Laget som et skoleprosjekt.
