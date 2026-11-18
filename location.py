@@ -36,7 +36,7 @@ def corridor():
 
 
 def police():
-    print("\nDu gikk inn i et rom fullt av politi.")
+    print("Du gikk inn i et rom fullt av politi.")
     print("Du tapte!")
 
 
