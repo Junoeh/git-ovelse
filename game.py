@@ -29,8 +29,8 @@ class Rom:
         self.valg = []
 
     def vis(self):
+        imgcat(open("Images/" + self.bilde, "rb"))
         print(self.tekst)
-        print("Bilde:", self.bilde)
 
         for valg in self.valg:
             print(valg.tekst)
