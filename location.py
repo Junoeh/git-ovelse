@@ -29,14 +29,34 @@ def corridor():
     if choice == "1":
         police()
     elif choice == "2":
-        win()
+        prisonyard()
     else:
         print("Ugyldig valg!")
         corridor()
 
+def prisonyard():
+    print("Du er i fengselsgården.")
+    print("1. Snakk med mannen ved hjørnet")
+    print("2. Hopp over gjerdet")
+    choice = input("Velg: ")
+    
+    if choice == "1":
+            crazyman()
+    elif choice == "2":
+            win()
+    else:
+            print("Ugyldig valg!")
+            corridor()
+
+
+
+def crazyman():
+    print("Mannen skriker")
+    print("Politiet kommer løpene ut")
+    print("Du tapte!")
 
 def police():
-    print("\nDu gikk inn i et rom fullt av politi.")
+    print("Du gikk inn i et rom fullt av politi.")
     print("Du tapte!")
 
 
